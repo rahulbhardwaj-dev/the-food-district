@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.delivery-guarantee-section {
+    height: 425px;
+    width: 100%;
+    display: flex;
+    padding: 75px 90px;
+}
+
+.delivery-guarantee-section .left {
+    width: 33%;
+    padding-right: 8px;
+}
+
+.delivery-guarantee-section .left h2 {
+    font-family: 'Playball', cursive;
+    color: #01693A;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.delivery-guarantee-section .left h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.delivery-guarantee-section .left p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.delivery-guarantee-section .left .contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.delivery-guarantee-section .left .contact-content p{
+    font-size: 15px;
+    color: #222222;
+}
+
+.delivery-guarantee-section .left .contact-content h4 {
+    font-size: 20px;
+    color: #ff7200;
+    margin-bottom: 4px;
+}
+
+.delivery-guarantee-section .center {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-guarantee-section .center img {
+    width: 85%;
+    height: auto;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out 0s 1 normal forwards;
+}
+
+.delivery-guarantee-section .right {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 20px;
+    text-align: right;
+    margin-top: 22px;
+}
+
+.delivery-guarantee-section .right h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.delivery-guarantee-section .right p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 7px;
+    line-height: 24px;
+    color: #222222;
+}
+
+@media (max-width: 1200px) {
+    .delivery-guarantee-section {
+        padding: 68px 85px;
+        height: 400px;
+    }
+    .delivery-guarantee-section .left h2 {
+        font-size: 36px;
+    }
+    .delivery-guarantee-section .left h3 {
+        font-size: 26px;
+    }
+    .delivery-guarantee-section .left p {
+        font-size: 15px;
+    }
+
+    .delivery-guarantee-section .right h2 {
+        font-size: 22px;
+    }
+    .delivery-guarantee-section .right p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1050px) {
+    .delivery-guarantee-section {
+        height: 375px;
+        padding: 50px 60px;
+    }
+}
+
+@media (max-width:950px) {
+    .delivery-guarantee-section .left h2 {
+        font-size: 34px;
+    }
+    .delivery-guarantee-section .left h3 {
+        font-size: 22px;
+    }
+    .delivery-guarantee-section .left p {
+        font-size: 14px;
+    }
+
+    .delivery-guarantee-section .right h2 {
+        font-size: 20px;
+    }
+    .delivery-guarantee-section .right p {
+        font-size: 14px;
+    }
+    .delivery-guarantee-section .left .contact-content h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 825px) {
+    .delivery-guarantee-section {
+        height: 350px;
+        padding: 40px 50px;
+    }
+    .delivery-guarantee-section .left h2 {
+        font-size: 32px;
+    }
+    .delivery-guarantee-section .left h3 {
+        font-size: 21px;
+    }
+    .delivery-guarantee-section .left p {
+        font-size: 13px;
+    }
+
+    .delivery-guarantee-section .right h2 {
+        font-size: 20px;
+    }
+    .delivery-guarantee-section .right p {
+        font-size: 13px;
+    }
+    .delivery-guarantee-section .left .contact-content p {
+        font-size: 14px;
+    }
+    .delivery-guarantee-section .left .contact-content h4 {
+        font-size: 13.5px;
+    }
+    .delivery-guarantee-section .right {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 750px) {
+    .delivery-guarantee-section {
+        height: 325px;
+        padding: 35px 40px;
+    }
+    .delivery-guarantee-section .left h2 {
+        font-size: 30px;
+    }
+    .delivery-guarantee-section .left h3 {
+        font-size: 19px;
+    }
+    .delivery-guarantee-section .left p {
+        font-size: 12px;
+    }
+
+    .delivery-guarantee-section .right h2 {
+        font-size: 18px;
+    }
+    .delivery-guarantee-section .right p {
+        font-size: 12px;
+    }
+    .delivery-guarantee-section .left .contact-content p {
+        font-size: 12px;
+    }
+    .delivery-guarantee-section .left .contact-content h4 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 690px) {
+    .delivery-guarantee-section {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .delivery-guarantee-section .left,
+    .delivery-guarantee-section .center,
+    .delivery-guarantee-section .right {
+        width: 70%;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+    .delivery-guarantee-section .left .contact-info {
+        justify-content: center;
+    }
+    .delivery-guarantee-section .center img {
+        width: 70%;
+    }
+    .delivery-guarantee-section .right {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .delivery-guarantee-section .left,
+    .delivery-guarantee-section .center,
+    .delivery-guarantee-section .right {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .delivery-guarantee-section .center img {
+        width: 70%;
+    }
+    .delivery-guarantee-section .right {
+        margin:0;
+    }
+}

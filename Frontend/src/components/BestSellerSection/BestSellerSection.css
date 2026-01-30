@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.bestsellers-section {
+    width: 100%;
+    height: 440px;
+    background-image: url("./bestsellersection.jpg");
+    /* background-color: #ed274b; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bestsellers-title h2 {
+    font-family: "Playball", cursive;
+    font-size: 34px;
+    color: #fff;
+    padding-top: 25px;
+    text-decoration: wavy underline #D9AAB5 2px;
+}   
+
+.bestsellers-items {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 30px 10px 30px;
+}
+
+.bestseller-item {
+    width: 15.5%;
+    height: 285px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.bestseller-item img {
+    width: 130px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bestseller-item h3 {
+    font-size: max(18px, 1.2vw);
+    color: #222;
+    margin: 10px 0px 7px 0px;
+    text-align: center;
+}
+
+.bestseller-item p {
+    font-size: max(14px, 1vw);
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    .bestseller-item img {
+        width: 135px;
+    }
+    .bestseller-item h3 {
+        font-size: 16px;
+    }
+    .bestseller-item p {
+        padding-top: 1px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1055px){
+
+    .bestsellers-title h2 {
+        font-size: 32px;
+    }
+    .bestsellers-section {
+        height: 410px;
+    }
+    .bestseller-item {
+        height: 270px;
+    }
+
+    .bestseller-item img {
+        width: 120px;
+    }
+
+    .bestseller-item h3 {
+        font-size: 14px;
+    }
+
+    .bestseller-item p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 930px){
+    .bestsellers-section {
+        height: 380px;
+    }
+    .bestseller-item {
+        height: 250px;
+    }
+
+    .bestseller-item img {
+        width: 110px;
+    }
+
+    .bestseller-item h3 {
+        font-size: 13px;
+    }
+
+    .bestseller-item p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .bestsellers-section {
+        height: 600px;
+        background-size: cover;
+    }
+
+    .bestsellers-items {
+        margin-top: 25px;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .bestseller-item {
+        height: 140px;
+        width: 45%;
+        flex-wrap: wrap;
+        margin-bottom: 20px;    
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bestseller-item img {
+        width: 100px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .bestseller-item div {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .bestseller-item h3 {
+        font-size: 18px;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .bestseller-item p {
+        width: 100%;
+        align-self: flex-start;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:750px) {
+    
+    .bestseller-item {
+        height: 130px;
+    }
+
+    .bestseller-item img {
+        width: 90px;
+    }
+
+    .bestseller-item h3 {
+        font-size: 15px;
+    }
+
+    .bestseller-item p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 690px) {
+    .bestseller-item img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 625px) {
+    .bestseller-item img {
+        width: 75px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .bestsellers-section {
+        height: 650px;
+    }
+
+    .bestseller-item {
+        width: 40%;
+        height: 168px;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .bestseller-item img {
+        width: 75px;
+        margin: 5px 0px 10px 0px;
+    }
+
+    .bestseller-item div {
+        width: 100%;
+        align-items: center;
+    }
+
+    .bestseller-item h3 {
+        font-size: 14px;
+    }
+
+    .bestseller-item p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bestsellers-section {
+        height: 700px;
+    }
+
+    .bestseller-item {
+        height: 185px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .bestsellers-section {
+        height: 750px;
+    }
+    .bestseller-item {
+        height: 200px;
+    }
+}

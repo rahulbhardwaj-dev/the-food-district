@@ -1,0 +1,40 @@
+.main-btn button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #ffffff ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed274b;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.main-btn button:hover {
+    background-color: #ffc222;
+    color: black;
+}
+.main-btn button span img {
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+@media (max-width:950px) {
+    .main-btn button {
+        font-size: 13px;
+        padding: 7px 13px;
+    }
+}
+
+@media (max-width:640px) {
+    .main-btn button {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
